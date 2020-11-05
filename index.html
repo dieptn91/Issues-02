@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./pub-asset/css/ecommerce-css.css">
+	<link rel="stylesheet" href="./pub-asset/owlcarousel01/assets/owl.carousel.min.css" type="text/css">
+	<link rel="stylesheet" href="./pub-asset/owlcarousel01/assets/owl.theme.default.min.css" type="text/css">
 </head>
 <body>
 	<header class="container">
@@ -132,6 +134,20 @@
 		</div>
 		</div>
 		<div class="row mt-5">
+			<h5>LOOKBOOK</h5>
+		<div class="col-md-12 col-sm-12 border-top">
+		<div class="owl-carousel owl-theme mt-1 hovercrs01">
+			<div class="item border"><img src="./pub-asset/images/ip6.jpg"  class="card-img-center d-block h-50" alt="no images" /></div>
+			<div class="item border"><img src="./pub-asset/images/mtx.jpg"  class="card-img-center d-block h-50" alt="no images"/></div>
+			<div class="item border"><img src="./pub-asset/images/mtg.jpg" class="card-img-center d-block h-50" alt="no images"/></div>
+			<div class="item border"><img src="./pub-asset/images/ip6.jpg" class="card-img-center d-block h-50" alt="no images"/></div>
+			<div class="item border"><img src="./pub-asset/images/mtx.jpg" class="card-img-center d-block h-50" alt="no images"/></div>
+			<div class="item border"><img src="./pub-asset/images/mtg.jpg" class="card-img-center d-block h-50" alt="no images"/></div>
+			<div class="item border"><img src="./pub-asset/images/ip6.jpg" class="card-img-center d-block h-50" alt="no images"/></div>
+		</div>
+		</div>
+		</div>
+		<div class="row mt-5">
 			<nav class="nav col-md-12 col-sm-12">
 				<a href="#" class="nav-link">BEST SELLER</a>
 				<a href="#" class="nav-link border-left border-right">NEW ARRIVALS</a>
@@ -195,5 +211,25 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="./pub-asset/owlcarousel01/vendors/jquery.min.js"></script>
+	<script src="./pub-asset/owlcarousel01/owl.carousel.min.js"></script>
+<script>
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:8
+        }
+    }
+})
+</script>
 </body>
 </html>
