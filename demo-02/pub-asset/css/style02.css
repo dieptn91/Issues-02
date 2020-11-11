@@ -26,7 +26,8 @@
   border: 0.5px solid #657b89;
   width: 170px;
   background-color: white;
-  z-index: 2; }
+  z-index: 2;
+  box-shadow: 5px 5px 5px grey; }
 
 .nav-block02 li:hover {
   background-color: #ffb6c1; }

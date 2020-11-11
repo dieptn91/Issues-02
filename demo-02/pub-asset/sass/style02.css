@@ -26,7 +26,8 @@
   border: 0.5px solid #657b89;
   width: 170px;
   background-color: white;
-  z-index: 2; }
+  z-index: 2;
+  box-shadow: 5px 5px 5px grey; }
 
 .nav-block02 li:hover {
   background-color: #ffb6c1; }
@@ -37,7 +38,8 @@
   position: relative; }
 
 .crs02 {
-  z-index: 1; }
+  z-index: 1;
+  position: relative; }
 
 #crs ul li {
   border-radius: 100%;
@@ -49,5 +51,71 @@
   width: 20px;
   margin-right: 5px;
   margin-left: 5px; }
+
+.crs03 {
+  top: 150px;
+  left: 1px;
+  width: 60%; }
+  .crs03 h3 {
+    font-style: italic;
+    font-size: 50px; }
+  .crs03 p {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .crs03 h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .crs03 h4 {
+    opacity: 0.7;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .crs03 h4 span {
+      color: #80cee7; }
+  .crs03 button {
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 10px 20px 10px 20px;
+    background-color: #8f7460;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold; }
+
+.banner01 {
+  text-transform: uppercase;
+  padding: 10px 0px 10px 0px;
+  background-color: #ffb6c1; }
+  .banner01 h4 {
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+    color: white; }
+  .banner01 button {
+    margin: 5px 10px 10px 120px;
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    color: #ffb6c1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none; }
+  .banner01 span {
+    color: #344655;
+    padding-left: 10px; }
+
+.menu01 a {
+  text-transform: uppercase;
+  padding: 0px 15px 0px 15px;
+  color: #8f7460;
+  border-left: 1px solid #d3d8db; }
+.menu01 a:hover {
+  text-decoration: none; }
+.menu01 .active {
+  color: black;
+  border-left: 0px;
+  padding-left: 0px; }
 
 /*# sourceMappingURL=style02.css.map */

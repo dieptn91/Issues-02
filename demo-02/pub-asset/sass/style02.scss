@@ -42,6 +42,7 @@
 	width:170px;
 	background-color:white;
 	z-index:2;
+	box-shadow: 5px 5px 5px grey;
 }
 
 .nav-block02{
@@ -58,6 +59,7 @@
 }
  .crs02{
 	z-index:1;
+	position:relative;
  }
 
 #crs{
@@ -76,3 +78,84 @@
 	}
 }
 
+.crs03{
+	top:150px;
+	left:1px;
+	width:60%;
+	h3{
+		font-style:italic;
+		font-size:50px;
+	}
+	p{
+		font-size:20px;
+		font-weight:600;
+		opacity:0.7;
+		text-transform:uppercase;
+		letter-spacing:1px;
+	}
+	h1{
+		font-size:80px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	h4{
+		opacity:0.7;
+		font-size:35px;
+		font-weight:bold;
+		text-transform:uppercase;
+		span{
+			color:#80cee7;
+		}
+	}
+	button{
+		margin-top:10px;
+		border:1px solid;
+		padding:10px 20px 10px 20px;
+		background-color:#8f7460;
+		text-transform:uppercase;
+		color:white;
+		font-weight:bold;
+	}
+}
+
+.banner01{
+	text-transform:uppercase;
+	padding:10px 0px 10px 0px;
+	background-color:#ffb6c1;
+	h4{
+		float:left;
+		padding-left:20px;
+		font-weight:bold;
+		color:white;
+	}
+	button{
+		margin:5px 10px 10px 120px;
+		padding:5px 20px 5px 20px;
+		background-color:white;
+		color:#ffb6c1;
+		text-transform:uppercase;
+		font-weight:bold;
+		border:none;
+	}
+	span{
+		color:#344655;
+		padding-left:10px;
+	}
+}
+
+.menu01{
+	a{
+		text-transform:uppercase;
+		padding:0px 15px 0px 15px;
+		color:#8f7460;
+		border-left:1px solid #d3d8db;
+	}
+	a:hover{
+		text-decoration:none;
+	}
+	.active{
+		color:black;
+		border-left:0px;
+		padding-left:0px;
+	}
+}
