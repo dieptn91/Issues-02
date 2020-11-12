@@ -53,9 +53,9 @@
   margin-left: 5px; }
 
 .crs03 {
-  top: 150px;
-  left: 1px;
-  width: 60%; }
+  top: 30%;
+  left: -15%;
+  width: 100%; }
   .crs03 h3 {
     font-style: italic;
     font-size: 50px; }
@@ -88,20 +88,24 @@
 .banner01 {
   text-transform: uppercase;
   padding: 10px 0px 10px 0px;
-  background-color: #ffb6c1; }
+  background-color: #ffb6c1;
+  position: relative; }
   .banner01 h4 {
     float: left;
     padding-left: 20px;
     font-weight: bold;
     color: white; }
   .banner01 button {
-    margin: 5px 10px 10px 120px;
-    padding: 5px 20px 5px 20px;
+    /*margin:5px 10px 10px 120px;
+    padding:5px 20px 5px 20px;*/
+    top: 20px;
+    right: 20px;
     background-color: white;
     color: #ffb6c1;
     text-transform: uppercase;
     font-weight: bold;
-    border: none; }
+    border: none;
+    position: absolute; }
   .banner01 span {
     color: #344655;
     padding-left: 10px; }
@@ -117,5 +121,42 @@
   color: black;
   border-left: 0px;
   padding-left: 0px; }
+
+.product01 {
+  color: #ffb6c1;
+  z-index: 1;
+  position: relative; }
+  .product01 span {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .product01 a {
+    color: #748087;
+    text-transform: uppercase; }
+  .product01 a:hover {
+    text-decoration: none; }
+  .product01 .discout {
+    font-size: 20px;
+    color: #4b5f6b;
+    float: left;
+    text-decoration: line-through;
+    padding: 0px 5px 0px 5px; }
+  .product01 p {
+    font-size: 20px;
+    color: #4b5f6b; }
+
+.sale02 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 2;
+  position: absolute;
+  background-color: #ffb6c1;
+  color: white;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  line-height: 62px;
+  top: 12px;
+  right: 25px; }
 
 /*# sourceMappingURL=style02.css.map */
