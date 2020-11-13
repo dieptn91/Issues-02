@@ -110,6 +110,13 @@
     color: #344655;
     padding-left: 10px; }
 
+.ct01 {
+  display: block;
+  z-index: 5;
+  background-color: white;
+  height: 40px;
+  width: 100%; }
+
 .menu01 a {
   text-transform: uppercase;
   padding: 0px 15px 0px 15px;
@@ -143,6 +150,8 @@
   .product01 p {
     font-size: 20px;
     color: #4b5f6b; }
+  .product01 img {
+    z-index: 1; }
 
 .sale02 {
   text-align: center;
@@ -158,5 +167,30 @@
   line-height: 62px;
   top: 12px;
   right: 25px; }
+
+.nav:hover .sale02 {
+  display: none; }
+
+.pd-hover01 {
+  background-color: #8f7460;
+  height: 10px;
+  display: block;
+  position: absolute;
+  width: 100%; }
+  .pd-hover01 i {
+    display: none;
+    color: white;
+    margin: 15px 10px 0px 15px;
+    float: left;
+    font-size: 12px; }
+
+.product01:hover .pd-hover01 {
+  height: 40px; }
+.product01:hover img {
+  margin-top: -40px; }
+.product01:hover h6 {
+  margin-top: 50px; }
+.product01:hover i {
+  display: block; }
 
 /*# sourceMappingURL=style02.css.map */
