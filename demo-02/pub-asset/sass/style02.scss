@@ -35,6 +35,13 @@
 		}
 	}
 }
+.ft01{
+	color:white;
+	&:hover{
+		text-decoration:none;
+		color:#80cee7;
+	}
+}
 
 .nav-block01{
 	display:none;
@@ -250,3 +257,28 @@
 				display:block;
 			}
 		}
+.imgcover{
+	object-fit:cover;
+}
+.icon01{
+	top:-15px;
+	left:10px;
+	background-color:#ffb6c1;
+	width:40px;
+	height:40px;
+	color:white;
+	position:relative;
+	i{
+		position:absolute;
+		top:10px;
+		left:15px;
+	}
+}
+
+.card{
+	.pt-0{
+		h4{
+			margin-top:-10px;
+		}
+	}
+}
