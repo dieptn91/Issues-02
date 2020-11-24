@@ -218,4 +218,22 @@
 .card .pt-0 h4 {
   margin-top: -10px; }
 
+.edit01 .col-md-3 {
+  padding: 0px; }
+  .edit01 .col-md-3 .card {
+    max-width: 99%;
+    clear: both; }
+  .edit01 .col-md-3 .card02 {
+    clear: right;
+    float: left; }
+  .edit01 .col-md-3 .card01 {
+    clear: left;
+    float: right; }
+
+.card-title a {
+  color: #ddc0d7; }
+.card-title a:hover {
+  text-decoration: none;
+  color: #80cee7; }
+
 /*# sourceMappingURL=style02.css.map */

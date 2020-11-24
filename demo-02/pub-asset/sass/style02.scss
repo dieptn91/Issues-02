@@ -282,3 +282,29 @@
 		}
 	}
 }
+.edit01{
+	.col-md-3{
+		padding:0px;
+		.card{
+			max-width: 99%;
+			clear: both;
+		}
+		.card02{
+			clear: right;
+			float:left;
+		}
+		.card01{
+			clear:left;
+			float:right;
+		}
+	}
+}
+.card-title{
+	a{
+		color: #ddc0d7;
+	}
+	a:hover{
+		text-decoration: none;
+		color: #80cee7;
+	}
+}
