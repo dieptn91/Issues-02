@@ -131,7 +131,7 @@
 				<img id="pd99" src="./pub-asset/images/pd01.jpg" alt="no-image"/>
 				<div class=" pd-detail mt-3">
 					<div class="col-md-3 col-sm-3">
-						<img src="./pub-asset/images/pd01.jpg" alt="..." onclick="changeimage('pd01')">
+						<img src="./pub-asset/images/pd01.jpg" alt="..." onclick="changeimage('pd01')" class="img-active">
 					</div>
 					<div class="col-md-3 col-sm-3">
 						<img src="./pub-asset/images/pd02.jpg" alt="..." onclick="changeimage('pd02')">
@@ -144,8 +144,8 @@
 					</div>
 				</div>
             </div>
-            <div class="col-md-5">
-                <h2 class="prd01">Moo cozy raglan</h2>
+            <div class="col-md-5 p-0">
+                <h2 class="prd01">Moo Cozy Raglan</h2>
                 <div class="border-bottom prd02">
                     <ul class="nav">
 						<li>
@@ -155,16 +155,36 @@
 							<span id="str04"class="fa fa-star " onclick="checkedstr('str04')"ondblclick="recheckedstr('str04')"></span>
 							<span id="str05"class="fa fa-star " onclick="checkedstr('str05')"ondblclick="recheckedstr('str05')"></span>
 						</li>
-                        <li>view</li>
+                        <li>1 view</li>
                         <li><a href="#">Add your review</a></li>
-                        <li><a href="#">tag:clothing,female</a></li>
+                        <li>tags:<a href="#">clothing,female</a></li>
                     </ul>
-                </div>
+				</div>
+				<div class="prd-content">
+					<h5>£16.00</h5>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+				<div class="stock">17 in stock</div>
+				<div class="quantity">
+					<span>quantity</span>
+					<input type="number" value="1" step="1" min="1" max="20">
+				</div>
+				<div class="cart01">
+					<button type="submit"><i class="fa fa-shopping-cart"></i>add to cart</button>
+					<button type="submit" class="btn01"><i class="fa fa-heart"></i>save</button>
+				</div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 topprd">
                 <ul class="list-group">
-                    <li class="list-group-item">top rated product</li>
-                    <li class="list-group-item">hipped</li>
+                    <li class="list-group-item"><h5>top rated product</h5></li>
+                    <li class="list-group-item">
+						<div class="media">
+							<img src="./pub-asset/images/md01.jpg" alt="..."/>
+							<div class="media-body">
+								<a href="#">Hippie Crewneck Tee</a>
+							</div>
+						</div>
+					</li>
                 </ul>
             </div>
         </div>
