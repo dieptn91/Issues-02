@@ -308,3 +308,47 @@
 		color: #80cee7;
 	}
 }
+.product01{
+	color:#9fa9b0;
+	li{
+		a:hover{
+			text-decoration: none;
+			color:#80cee7;
+		}
+		a{
+			padding-right:5px;
+		}
+		span{
+			padding:0px 5px 0px 5px;
+		}
+		.active{
+			color:#9fa9b0;
+		}
+	}
+}
+.pd-detail{
+	*{
+		float: left;
+		padding:0;
+		align-items: center;
+		justify-content: center;
+	}
+	img{
+		max-width: 80px;
+		background-size: cover;
+	}
+}
+.pd-detail01{
+	#pd99{
+		background-size: cover;
+		min-width:100%;
+	}
+}
+.prd01{
+	color:#344655;
+	line-height: 1.4;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+	

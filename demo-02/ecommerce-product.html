@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ECOMMERCE DEMO-02</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./pub-asset/sass/style02.css">
+</head>
+<body>
+	<!--nav header-->
+	<div class="container-fluid cl01">
+	<div class="container nav01">
+		<div class="row">
+			<div class="col col-md-12">
+				<nav>
+					<ul class="nav justify-content-end" role="tablist">
+						<li class="nav-item">
+							<a href="#" class="nav-link">24/7 Customer Care</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Track Order</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Login</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		</div>
+		</div>
+	<!--end nav header-->
+	<!--navigation-->
+	<div class="container nav02">
+		<div class="row my-4">
+			<div class="col-sm-12 col-md-3">
+				<img src="./pub-asset/images/logo.png" alt="no img">
+			</div>
+			<div class="col-sm-12 col-md-9">
+				<nav class="navbar navbar-expand-sm">
+					<button class="btn btn-default navbar-btn border mx-1">
+						<i class="fa fa-search"></i>
+					</button>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link active01">HOME</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">SHOP</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">BLOG</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav nav-block02">
+						<li class="nav-item">
+							<a href="#" class="nav-link dropdown-toggle">PAGES</a>
+							<div class="nav-block01">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link" href="#">Page Example</a>
+									</li>
+								</ul>
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link" href="#">Let Silderbar</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<ul class="navbar-nav nav-block02">
+						<li class="nav-item">
+							<a href="#" class="nav-link dropdown-toggle">OPTIONS PANEL</a>
+							<div class="nav-block01">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link" href="#">General Settings</a>
+									</li>
+								</ul>
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link" href="#">Styling Settings</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">TODAY OFFER</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">WHISTLIST</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">CART</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!--end navigation-->
+    <!--content-->
+    <div class="container mt-5">
+        <div class="row">
+            <ul class="nav product01">
+                <li><a href="#">Home</a><span class="fa fa-angle-right"></span></li>
+                <li><a href="#">Clothing</a><span class="fa fa-angle-right"></span></li>
+                <li><a href="#">female</a><span class="fa fa-angle-right"></span></li>
+                <li><a href="#" class="active">moo cozy raglan</a></li>
+            </ul>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 pd-detail01">
+				<img id="pd99" src="./pub-asset/images/pd01.jpg" alt="no-image"/>
+				<div class=" pd-detail mt-3">
+					<div class="col-md-3 col-sm-3">
+						<img src="./pub-asset/images/pd01.jpg" alt="..." onclick="changeimage('pd01')">
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<img src="./pub-asset/images/pd02.jpg" alt="..." onclick="changeimage('pd02')">
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<img src="./pub-asset/images/pd03.jpg" alt="..." onclick="changeimage('pd03')">
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<img src="./pub-asset/images/pd04.jpg" alt="..." onclick="changeimage('pd04')">
+					</div>
+				</div>
+            </div>
+            <div class="col-md-5">
+                <h2 class="prd01">Moo cozy raglan</h2>
+                <div class="border-bottom prd02">
+                    <ul class="nav">
+						<li>
+							<span id="str01"class="fa fa-star " onclick="checkedstr('str01')" ondblclick="recheckedstr('str01')"></span>
+							<span id="str02"class="fa fa-star " onclick="checkedstr('str02')"ondblclick="recheckedstr('str02')"></span>
+							<span id="str03"class="fa fa-star " onclick="checkedstr('str03')"ondblclick="recheckedstr('str03')"></span>
+							<span id="str04"class="fa fa-star " onclick="checkedstr('str04')"ondblclick="recheckedstr('str04')"></span>
+							<span id="str05"class="fa fa-star " onclick="checkedstr('str05')"ondblclick="recheckedstr('str05')"></span>
+						</li>
+                        <li>view</li>
+                        <li><a href="#">Add your review</a></li>
+                        <li><a href="#">tag:clothing,female</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item">top rated product</li>
+                    <li class="list-group-item">hipped</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<!--end content-->
+	<footer>
+	<div class="container-fluid cl01 mt-5">
+		<div class="row justify-content-center">
+		<a href="#" class="ft01">Ecommerce demo</a>
+		</div>
+	</div>
+	</footer>
+
+	<script>
+		function changeimage(id){
+			var x = document.getElementById('pd99');
+			x.src="./pub-asset/images/"+id+".jpg";
+		}
+		
+		function checkedstr(id){
+			var y=document.getElementById(id);
+			y.style.color="orange";
+		}
+
+		function recheckedstr(id){
+			document.getElementById(id).style.color="black";
+		}
+	</script>
+</body>
+</html>
