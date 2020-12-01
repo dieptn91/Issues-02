@@ -333,6 +333,9 @@
 		align-items: center;
 		justify-content: center;
 	}
+	div{
+		width: 25%;
+	}
 	img{
 		max-width: 80px;
 		background-size: cover;
@@ -347,8 +350,8 @@
 }
 .pd-detail01{
 	#pd99{
+		width: 100%;
 		background-size: cover;
-		width:100%;
 		min-height: 585px;
 	}
 }

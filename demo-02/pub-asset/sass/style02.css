@@ -253,6 +253,8 @@
   padding: 0;
   align-items: center;
   justify-content: center; }
+.pd-detail div {
+  width: 25%; }
 .pd-detail img {
   max-width: 80px;
   background-size: cover;
@@ -263,8 +265,8 @@
   opacity: 1; }
 
 .pd-detail01 #pd99 {
-  background-size: cover;
   width: 100%;
+  background-size: cover;
   min-height: 585px; }
 
 .prd01 {
